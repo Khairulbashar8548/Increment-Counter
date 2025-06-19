@@ -3,10 +3,22 @@
     padding: 0%;
     box-sizing: border-box;
 }
- html ,body{
+ body{
+    height: 100vh;
     display:flex ;
     align-items: center;
     justify-content: center;
     background-color: aquamarine;
-    padding-left: 50px;
+    gap: 50px;
+    font-weight: 700;
+    font-size: 30px;
+
+}
+
+.counter{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin: 15px 15px;
+    
 }
